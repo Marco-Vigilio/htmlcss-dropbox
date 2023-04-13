@@ -155,12 +155,12 @@ section.contain section>div.colonna div:first-child{
 }
 
 section.contain section div.colonna div.colonnina{
-    padding: 1rem 2rem;
+    padding: 2rem 1.5rem;
 }
 
 section.contain div.colonnina div.servizi ul li{
     font-size: .8rem;
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 
 /*footer-------------------------------------------------------------------*/
@@ -202,8 +202,7 @@ footer{
 }
 
 .colonna{
-    width: 400px;
-    /*width: 250px;*/
+    width: 250px;
     height: 100%;
     background-color: lime;
 }
