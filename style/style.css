@@ -44,6 +44,10 @@ ul{
     justify-content: space-between;
 }
 
+.flex-centrato{
+    align-items: center;
+}
+
 /*header------------------------------------------------------------------------*/
 
 header nav section{
@@ -83,7 +87,6 @@ main section.bg{
     height: 580px;
     width: 100%;
     position: absolute;
-    top: 0;
     z-index: -1;
 }
 
@@ -124,7 +127,27 @@ main section.jumbo section div img{
 /*QUI FINISCE JAMBO MAIN-------------------*/
 
 
+/*PRIMA PARTE*/
 
+section.contain div.titolo-due>h2{
+    font-size: 2rem;
+    padding-top: 3.5rem;
+}
+
+section.contain div:nth-child(2){
+    font-size: .7rem;
+    color: gray;
+    padding: 3rem 0 2.5rem;
+    font-weight: bold;
+}
+
+section.contain div>input{
+    margin-right: .1rem;
+}
+
+section.contain div>input:nth-child(2){
+    margin-left: 2.5rem;
+}
 
 /*footer-------------------------------------------------------------------*/
 
@@ -165,7 +188,7 @@ footer{
 }
 
 .colonna{
-    width: 200px;
+    width: 250px;
     height: 100%;
     background-color: lime;
 }
