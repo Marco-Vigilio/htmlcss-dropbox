@@ -33,6 +33,7 @@ ul{
     color: white;
     background-color: #0061ff;
     border: none;
+    display: inline;
 }
 
 
@@ -99,5 +100,4 @@ main section:first-child{
 
 .trat{
     border: 2px solid green;
-    width: 100%;
 }
