@@ -97,7 +97,7 @@ main{
 
 main section.bg{
     background-color: #b4d0e7;
-    height: 570px;
+    height: 580px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -107,12 +107,12 @@ main section.bg{
 /*main jambo*/
 main section.jumbo div>h1{
     font-size: 4rem;
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 
 
 main section.jumbo section div:first-child{
-    width: 35%;
+    width: 32%;
 }
 
 main section.jumbo section div p{
@@ -130,7 +130,7 @@ main section.jumbo section div i{
 }
 
 main section.jumbo section div:last-child{
-    width: 65%;
+    width: 68%;
 }
 
 
