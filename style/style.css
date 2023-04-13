@@ -15,8 +15,13 @@ ul{
 
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
- .contain{
-    max-width: 1100px;
+ .jambo{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -65,7 +70,9 @@ header section div>button{
 
 /*main*/
 
-
+main section:first-child{
+    height: 500px;
+}
 
 /*colori*/
 
@@ -79,10 +86,16 @@ header section div>button{
     background-color: red;
 }
 
-.quadrato{
+.forma{
     width: 500px;
     height: 500px;
     background-color: blue;
+}
+
+.forma-due{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
 }
 
 .trat{
