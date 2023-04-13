@@ -29,10 +29,10 @@ ul{
 
 .bottone-blu{
     text-align: center;
+    font-size: .7rem;
     padding: .4rem .6rem;
     color: white;
     background-color: #0061ff;
-    border: none;
     display: inline;
 }
 
@@ -61,7 +61,8 @@ header nav section div>img{
 header section div>ul>li{
     font-size: .8rem;
     color: #656565;
-    margin: .1rem 1rem;
+    display: inline;
+    /*margin: .1rem 1rem;*/
 }
 
 
@@ -73,6 +74,12 @@ header section div>button{
 
 main section:first-child{
     height: 500px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #000000;
 }
 
 /*colori*/
