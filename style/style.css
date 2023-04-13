@@ -16,7 +16,7 @@ ul{
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
  .jambo{
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -70,6 +70,7 @@ header section div>ul>li{
     text-align: center;
     color: #656565;
     margin-right: 1.5rem;
+    margin-top: .2rem;
     /*margin: .1rem 1rem;*/
 }
 
@@ -89,16 +90,23 @@ header section div>div.bottone-blu{
 
 
 
-
-
-
-
-
 /*main*/
 
 main section:first-child{
     height: 500px;
 }
+
+
+main section.jambo div>h1{
+    font-size: 4rem;
+    margin: 3rem 0;
+}
+
+
+
+
+
+
 
 /*footer*/
 
