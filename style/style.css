@@ -134,7 +134,7 @@ section.contain div.titolo-due>h2{
     padding-top: 3.5rem;
 }
 
-section.contain div:nth-child(2){
+section.contain div.flex:nth-child(2){
     font-size: .7rem;
     color: gray;
     padding: 3rem 0 2.5rem;
@@ -147,6 +147,20 @@ section.contain div>input{
 
 section.contain div>input:nth-child(2){
     margin-left: 2.5rem;
+}
+
+section.contain section>div.colonna div:first-child{
+    text-align: center;
+    border-bottom: solid 2px blue;
+}
+
+section.contain section div.colonna div.colonnina{
+    padding: 1rem 2rem;
+}
+
+section.contain div.colonnina div.servizi ul li{
+    font-size: .8rem;
+    margin: 1rem 0;
 }
 
 /*footer-------------------------------------------------------------------*/
@@ -188,7 +202,8 @@ footer{
 }
 
 .colonna{
-    width: 250px;
+    width: 400px;
+    /*width: 250px;*/
     height: 100%;
     background-color: lime;
 }
