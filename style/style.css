@@ -20,7 +20,7 @@ ul{
     margin: 0 auto;
 }
 
-.container{
+.contain{
     max-width: 500px;
     margin: 0 auto;
 }
@@ -87,8 +87,7 @@ main section:first-child{
 }
 
 .forma{
-    width: 500px;
-    height: 500px;
+    height: 200px;
     background-color: blue;
 }
 
@@ -100,4 +99,5 @@ main section:first-child{
 
 .trat{
     border: 2px solid green;
+    width: 100%;
 }
