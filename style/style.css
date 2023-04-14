@@ -241,7 +241,13 @@ section.riga>div:nth-child(2)>div{
     margin: 2rem;
 }
 
+section.partner div:first-child{
+    
+}
 
+section.partner div img{
+    width: 100%;
+} 
 /*footer-------------------------------------------------------------------*/
 
 footer{
