@@ -169,11 +169,11 @@ div.colonnina h3{
     font-size: 1.2rem;
 }
 
-section.contain div.colonnina div.servizi{
+section.contain section{
     margin-bottom: 2rem;
 }
 
-section.contain div.colonnina div.servizi ul li{
+section div.colonnina div.servizi ul li{
     margin: .5rem 0;
 }
 
@@ -182,6 +182,11 @@ section div.tipologia{
     font-size: .7rem;
     padding: .5rem 0;
     border-bottom: solid 1px black;
+}
+
+.colonna{
+    width: 30%;
+    border: 1px black solid;
 }
 
 div.colonnina{
@@ -211,8 +216,8 @@ div.colonnina h4{
     margin-bottom: 1rem;
 }
 
-div.colonnina div.servizi ul li::before{
-    content: "v";
+div.colonnina div.servizi ul{
+    list-style-type: square;
     display: inline-block;
     color: #015fffff;
 
@@ -256,8 +261,3 @@ footer{
     background-color: aqua;
 }
 
-.colonna{
-    width: 250px;
-    height: 100%;
-    background-color: lime;
-}
