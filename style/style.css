@@ -184,19 +184,38 @@ section div.tipologia{
     border-bottom: solid 1px black;
 }
 
-section div.colonnina{
+div.colonnina{
     font-size: .8rem;
 }
 
-section div.colonnina div.prezzo{
+div.colonnina div.prezzo{
     font-weight: bold;
     font-size: .7rem;
     padding: 1rem 0 .3rem;
 }
 
-section div.colonnina div.durata{
+div.colonnina div.durata{
     color: gray;
     padding-bottom: 2rem;
+}
+
+div.colonnina div.bottone-blu{
+    margin: 1.5rem 0;
+}
+
+div.colonnina div.separatore{
+    margin: 2rem 0;
+}
+
+div.colonnina h4{
+    margin-bottom: 1rem;
+}
+
+div.colonnina div.servizi ul li::before{
+    content: "v";
+    display: inline-block;
+    color: #015fffff;
+
 }
 
 /*footer-------------------------------------------------------------------*/
