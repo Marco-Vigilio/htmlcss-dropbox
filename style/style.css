@@ -20,13 +20,15 @@ ul{
 }
 
 .contain{
-    max-width: 800px;
+    max-width: 950px;
+    width: 800px;
     margin: 0 auto;
 }
 
 /*bottone generico*/
 
 .bottone-blu{
+    width: 100%;
     text-align: center;
     font-size: .8rem;
     padding: .4rem .7rem;
@@ -113,7 +115,7 @@ main section.jumbo section div:first-child{
     width: 32%;
 }
 
-main section.jumbo section div p{
+p{
     font-size: .8rem;
 }
 
@@ -146,7 +148,7 @@ section.contain div.titolo-due>h2{
     padding-top: 3.5rem;
 }
 
-section.contain div.flex:nth-child(2){
+section.contain div.scelta{
     font-size: .7rem;
     color: gray;
     padding: 3rem 0 2.5rem;
@@ -161,11 +163,11 @@ section.contain div>input:nth-child(2){
     margin-left: 2.5rem;
 }
 
-section div.colonnina{
+section div.colonnina {
     padding: 1.5rem;
 }
 
-div.colonnina h3{
+div.colonnina h3, section.riga h3{
     font-size: 1.2rem;
 }
 
@@ -221,9 +223,24 @@ div.servizi ul {
     color: black;
 }
 
-section.contain section:nth-child(2) div.colonna.riga{
-    width: 50%;
+section.riga{
+    border: 1px solid black;
 }
+
+section.riga div p:nth-child(2){
+    margin: 1rem 0 1.5rem;
+    font-weight: bold;
+}
+
+section.riga div:nth-child(2) div:nth-child(2){
+    width: 30%;
+    margin-left: .3rem;
+}
+
+section.riga>div:nth-child(2)>div{
+    margin: 2rem;
+}
+
 
 /*footer-------------------------------------------------------------------*/
 
