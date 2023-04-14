@@ -216,11 +216,13 @@ div.colonnina h4{
     margin-bottom: 1rem;
 }
 
-div.colonnina div.servizi ul{
-    list-style-type: square;
-    display: inline-block;
-    color: #015fffff;
+div.servizi ul {
+    list-style: url("/img/check-solid.svg");
+    color: black;
+}
 
+section.contain section:nth-child(2) div.colonna.riga{
+    width: 50%;
 }
 
 /*footer-------------------------------------------------------------------*/
