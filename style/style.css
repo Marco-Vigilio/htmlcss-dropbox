@@ -49,6 +49,10 @@ ul{
     align-items: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 /*header------------------------------------------------------------------------*/
 
 header nav section{
@@ -250,9 +254,16 @@ div.corto{
     width: 110%;
 }
 
-.img-items{
+.row-items{
+    margin: 2rem 0;
+}
+
+.item{
     width: 30%;
-    height: auto;
+}
+
+.img-item{
+    width: 200px;
 }
 
 /*footer-------------------------------------------------------------------*/
