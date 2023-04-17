@@ -299,13 +299,14 @@ div.corto{
 
 .riga-azzurra{
     background-color: #b4d0e7;
-    height: 40vh;
+    height: 40vh; /*grandezza da togliere, da fare in base al contenuto*/
 }
 
 /*footer-------------------------------------------------------------------*/
 
 footer{
     background-color: #000000;
+    color: white;
 }
 
 /*colori*/
