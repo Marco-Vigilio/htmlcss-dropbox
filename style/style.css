@@ -28,7 +28,6 @@ ul{
 /*bottone generico*/
 
 .bottone-blu{
-    width: 100%;
     text-align: center;
     font-size: .8rem;
     padding: .4rem .7rem;
@@ -82,9 +81,6 @@ header section div ul.left li{
 }
 
 
-header section div>div.bottone-blu{
-    margin: 0 1rem;
-}
 
 header div.sopra{
     margin-bottom: .8rem;
@@ -241,13 +237,19 @@ section.riga>div:nth-child(2)>div{
     margin: 2rem;
 }
 
-section.partner div:first-child{
-    
+section.partner{
+    margin-top: 5rem;
 }
 
 section.partner div img{
     width: 100%;
 } 
+
+
+div.corto{
+    width: 110%;
+}
+
 /*footer-------------------------------------------------------------------*/
 
 footer{
