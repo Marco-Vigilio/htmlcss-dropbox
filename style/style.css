@@ -93,6 +93,9 @@ header div.sopra{
     margin-bottom: .8rem;
 }
 
+header section>div>div.bottone-blu{
+    margin: 0 .7rem;
+}
 
 /*main-----------------------------------------------------------------------------*/
 main{
@@ -247,7 +250,7 @@ section.riga>div:nth-child(2)>div{
 /*sessione partner*/
 
 section.partner{
-    padding: 5rem 0 5rem;/*da controllare*/
+    padding: 5rem 0;/*da controllare*/
 }
 
 section.partner div img{
