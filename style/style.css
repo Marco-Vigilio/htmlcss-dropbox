@@ -281,8 +281,6 @@ div.corto{
 .quadrati{
     width: calc(100%/3);
     height: calc(100vw/3);
-    border: solid black 1px;
-    background-color: aqua;
 }
 
 .quadratini{
@@ -299,6 +297,24 @@ div.quadratini>img, div.quadrati>img{
 
 div.square> div:first-child> div:first-child{
     border: 12px solid #d1e9cd;
+}
+
+div.square>div:nth-child(2){
+    padding: 2.3rem;
+    background-color: #f5f5f5;
+}
+
+div.quadrati>img{
+    filter: invert(0%);
+    padding-bottom: .5rem;
+}
+
+div.quadrati p{
+    padding: 2rem 0;
+}
+
+div.square>div.quadrati:nth-child(2)>div{
+    opacity: 20%;
 }
 
 /*riga azzurra*/
