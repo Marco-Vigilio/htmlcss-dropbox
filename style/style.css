@@ -300,10 +300,33 @@ div.corto{
     margin: 0 2rem;
 }
 
+/*riga azzurra*/
 
-.riga-azzurra{
+div.riga-azzurra{
     background-color: #b4d0e7;
-    height: 40vh; /*grandezza da togliere, da fare in base al contenuto*/
+}
+
+div.riga-azzurra>div{
+    padding: 5rem 0;
+}
+
+div.riga-azzurra div>div{
+    width: 60%;
+}
+
+div.riga-azzurra div>div:first-child{
+    color: #61082b;
+}
+
+div.riga-azzurra div>div:last-child{
+    position: relative;
+}
+
+div.riga-azzurra div>div:last-child>div{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    color: black;
 }
 
 /*domande frequenti*/
