@@ -12,6 +12,10 @@ ul{
     list-style-type: none;
 }
 
+h2{
+    font-size: 2rem;
+}
+
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
  .jumbo{
@@ -300,6 +304,26 @@ div.corto{
 .riga-azzurra{
     background-color: #b4d0e7;
     height: 40vh; /*grandezza da togliere, da fare in base al contenuto*/
+}
+
+/*domande frequenti*/
+
+section.domande{
+    padding: 5rem 0;
+}
+
+section.domande>div{
+    padding: 1rem 0;
+}
+
+section.domande div.flex{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+section.domande div>i{
+    margin-right: 2rem;
+    font-size: .6rem;
 }
 
 /*footer-------------------------------------------------------------------*/
