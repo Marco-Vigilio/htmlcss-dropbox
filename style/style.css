@@ -244,18 +244,35 @@ section.riga>div:nth-child(2)>div{
     margin: 2rem;
 }
 
+/*sessione partner*/
+
 section.partner{
-    margin-top: 5rem;
+    padding: 5rem 0 5rem;/*da controllare*/
 }
 
 section.partner div img{
     width: 100%;
 } 
-
-
-div.corto{
-    width: 110%;
+section.partner>div:last-child{ 
+    width: 90%; /*non ho capito perchè fa così*/
+    padding: 2.5rem 2.5rem;
 }
+
+section.partner>div p{
+    padding: 1rem 0;
+}
+
+section.partner>div>div.bottone-blu{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+    width: 50%;
+    padding: 0;
+    padding: .4rem 0;
+}
+
+
+
 /*Sezione delle items*/
 .row-items{
     margin: 2rem 0;
@@ -266,13 +283,21 @@ div.corto{
 }
 
 .img-item{
-    width: 200px;
+    width: 100%;
+}
+
+div.item p{
+    padding-top: 1.5rem;
 }
 
 /*terza parte del main*/
 
 div.parte-corta{
     width: 70%;
+}
+
+div.parte-corta h2{
+    padding-top: 6rem;
 }
 
 div.parte-corta div{
@@ -357,6 +382,10 @@ div.riga-azzurra div>div:last-child>div{
 
 section.domande{
     padding: 5rem 0;
+}
+
+section.domande h2{
+    padding: 2rem 0;
 }
 
 section.domande>div{
